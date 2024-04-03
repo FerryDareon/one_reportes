@@ -6,7 +6,8 @@ def dataframe_one(tabla_interes="Importaciones", año_interes=2024, url=None):
     Parámetros:
         - tabla_interes (str): El nombre de la tabla de interés. Por defecto es "Importaciones".
         - año_interes (int): El año de interés para seleccionar los datos adecuados. Por defecto es 2024.
-        - url(str): URL del archivo a leer en formato xlsx. Si se proporciona, se ignora el nombre de la tabla y el año de interés.
+        - url(str): URL del archivo a leer en formato xlsx. Si se proporciona, se ignora el nombre de la tabla y el año de interés,
+          y se procederá a realizar una consulta del link en caso de que este contenga un documento en .xlsx
     Returns:
         Un diccionario de DataFrames con las hojas de Excel seleccionadas según los parámetros especificados.
     """
