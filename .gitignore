@@ -1,0 +1,12 @@
+*.xlsx
+*.xls
+*.ipynb
+!ipc_do.ipynb
+*.html
+*.pdf
+*.csv
+*.txt
+/images
+/.vscode
+/__pycache__
+*.py
